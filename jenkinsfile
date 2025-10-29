@@ -11,7 +11,7 @@ pipeline {
         DOCKERHUB_USER = 'yerriacloudlab'
         IMAGE_NAME = 'jenkins-docker-lab'
         SONARQUBE = 'SonarCloud'
-        SONAR_TOKEN = credentials('yerri-sonarcloud-token')
+        SONAR_TOKEN = credentials('yerri-sonarcloud')
 
     }
     stages {
